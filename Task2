@@ -47,5 +47,5 @@ def image_masking(filepath):
 	cv2.imwrite(filepath, masked)
 
 if __name__ == '__main__':
-	filepath = raw_input("test1.jpj")
+	filepath = raw_input("test1.jpg")
 	image_masking(filepath)
